@@ -1,0 +1,76 @@
+
+/* Contenedor principal */
+
+.contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  }
+  
+  /* Título */
+  .heading {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Formulario */
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #f39c12; /* Borde naranja */
+    background-color: #fff;
+  }
+  
+  /* Agrupación de los campos del formulario */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Etiquetas */
+  .label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  /* Campos de entrada de texto */
+  .input,
+  .textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo específico para el campo de texto */
+  .textarea {
+    height: 150px;
+  }
+  
+  /* Error */
+  .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  /* Botón de envío */
+  .submit-button {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
